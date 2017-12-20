@@ -17,18 +17,19 @@ header{
     align-items: center;
     input{
         width:92.6%;
-        height: 1.75rem;
-        border-radius: 1.875rem;
-        padding-left:4.625rem;
-        background:#fff url(../images/7_05.png) no-repeat 6% center;
+        height: 1.78125rem;
+        border-radius: 0.9375rem;
+        padding-left:2.31rem;
+        font-size: 0.8125rem;
+        background:#fff url(../images/7_05.png) no-repeat 4% center;
         background-size:7.2%;
     }
 }
 .banner{
     width: 100%;
-    height: 15.625rem;
+    height: 7.8125rem;
     .box{
-        height: 15.625rem;
+        height: 7.8125rem;
         img{
             width: 100%;
             height: 100%;
@@ -37,10 +38,121 @@ header{
     
 }
 .main{
+    width: 100%;
     flex:1;
+    section{
+       width: 100%;
+       height: 6.875rem;
+       border-bottom: 0.03125rem solid #ccc;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+        .sec{
+            width:95.4%;
+            height: 5.4375rem;
+            display: flex;
+           // background: red;
+            justify-content: space-between;
+            .left{
+                width: 5.46875rem;
+                height: 5.46875rem;
+                img{
+                    width: auto;
+                    height: 100%;
+                }
+            }
+            .right{
+                width: 65.6%;
+                height: 5.46875rem;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                   .top{
+                       font-size: 0.875rem;
+                       line-height: 1.3125rem;
+                   }
+                   .bottom{
+                       display: flex;
+                       justify-content: space-between;
+                       .bottom-left{
+                           .current{
+                               font-size: 0.9375rem;
+                               color: #f32975;
+                           }
+                           .before{
+                               font-size: 0.625rem;
+                               color: #bcbabb;
+                               margin-left: 0.15625rem;
+                               text-decoration: line-through;
+                           }
+                           .zhekou{
+                               font-size:0.625rem;
+                               color: black;
+                               line-height: 0.875rem;
+                               padding-left: 0.1875rem;
+                           }
+                       }
+                       .bottom-right{
+                           span{
+                               display: block;
+                               width: 3.65625rem;
+                               height: 1.59375rem;
+                               background: url(../images2/10.jpg) no-repeat center center;
+                               background-size: 100%;
+                           }
+                       }
+                   }
+            }
+        }
+    }
 }
 footer{
-    height: 6.25rem;
-    width: 100%;
-    background: black;
+//  background: pink;
+    ul{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 3.125rem;       
+        width: 100%;
+        background: #484850;
+        color: white;
+        li{
+            height: 3.125rem; 
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            .iconfont{
+                font-size: 1.34375rem;
+            }
+            p:nth-child(2){
+                font-size: 0.75rem;
+            }
+        }
+    }
 }
+/*iphone 6plus*/
+@media only screen and (min-width:414px) {
+html,body{font-size: 21px !important;}
+}
+/*iphone 6*/
+@media only screen and (min-width:375px) {
+html,body{font-size: 19px !important;}
+}
+@media only screen and (min-width:768px) {
+html,body{font-size: 33px !important;}
+}
+/* ipad */
+//@media only screen
+//and (min-device-width : 768px)
+//and (max-device-width : 1024px)
+//and (orientation : landscape){
+//html,body{font-size: 22px !important;}
+//}
+
+/* ipad竖屏 */
+//@media (min-device-width: 768px)
+//and (max-device-width: 1024px)
+//and (orientation: portrait) {
+//html,body{font-size: 26px !important;}
+//}
