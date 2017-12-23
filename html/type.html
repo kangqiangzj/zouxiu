@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<title>分类</title>
+		<meta name="keywords" content="填写描述语句，方便seo抓取">
+  	    <meta name="description" content="">
+  	    <link rel="stylesheet" type="text/css" href="../iconfont/iconfont.css">
+  	    <link rel="stylesheet" type="text/css" href="../css/base.css"/>
+  	    <link rel="stylesheet" type="text/css" href="../css/muban.css"/>
+  	    <link rel="stylesheet" type="text/css" href="../css/type.css"/>
+		<script src="../jquery/jquery-1.12.4.min.js"></script>
+	</head>
+	<body>
+		<header>
+			<div class="back">
+				
+			</div>
+		</header>
+		<div class="search">
+			<input type="text" placeholder="请输入内容"/>
+		</div>
+		
+		<div class="main">
+			<!--全部-->
+			<div class="all">
+				<div class="all-left">全部</div>
+				<div class="all-right"></div>
+			</div>
+			<!--细分-->
+			<div class="alltype">
+				<div class="chenshan type">
+					<div class="chenshan-titile type-title">
+						<div class="chenshan-titile-left type-title-left">衬衫</div>
+						<div class="chenshan-titile-right type-title-right"></div>						
+					</div>
+					<div class="chenshan-main type-main"></div>
+				</div>
+				
+				<div class="nvzhuang type">
+					<div class="nvzhuang-titile type-title">
+						<div class="nvzhuang-titile-left type-title-left">女装T恤</div>
+						<div class="nvzhuang-titile-right type-title-right"></div>
+					</div>
+					<div class="nvzhuang-main type-main"></div>
+				</div>
+				
+				<div class="zhubaopeishi type">
+					<div class="zhubaopeishi-titile type-title">
+						<div class="zhubaopeishi-titile-left type-title-left">珠宝配饰</div>
+						<div class="zhubaopeishi-titile-right type-title-right"></div>
+					</div>
+					<div class="zhubaopeishi-main type-main"></div>
+				</div>
+				
+				<div class="meishibaojian type">
+					<div class="meishibaojian-titile type-title">
+						<div class="meishibaojian-titile-left type-title-left">美食保健</div>
+						<div class="meishibaojian-titile-right type-title-right"></div>
+					</div>
+					<div class="meishibaojian-main type-main"></div>
+				</div>
+				
+				<div class="huazhuangpin type">
+					<div class="huazhuangpin-titile type-title">
+						<div class="huazhuangpin-titile-left type-title-left">化妆品</div>
+						<div class="huazhuangpin-titile-right type-title-right"></div>
+					</div>
+					<div class="huazhuangpin-main type-main"></div>
+				</div>
+				
+				<div class="pinpaizhuanchang type">
+					<div class="pinpaizhuanchang-titile type-title">
+						<div class="pinpaizhuanchang-titile-left type-title-left">品牌专场</div>
+						<div class="pinpaizhuanchang-titile-right type-title-right"></div>
+					</div>
+					<div class="pinpaizhuanchang-main type-main"></div>
+				</div>
+				<!--重复-->
+				<div class="pinpaizhuanchang type">
+					<div class="pinpaizhuanchang-titile type-title">
+						<div class="pinpaizhuanchang-titile-left type-title-left">品牌专场</div>
+						<div class="pinpaizhuanchang-titile-right type-title-right"></div>
+					</div>
+					<div class="pinpaizhuanchang-main type-main"></div>
+				</div>
+				
+				<div class="pinpaizhuanchang type">
+					<div class="pinpaizhuanchang-titile type-title">
+						<div class="pinpaizhuanchang-titile-left type-title-left">品牌专场</div>
+						<div class="pinpaizhuanchang-titile-right type-title-right"></div>
+					</div>
+					<div class="pinpaizhuanchang-main type-main"></div>
+				</div>
+				
+				<div class="pinpaizhuanchang type">
+					<div class="pinpaizhuanchang-titile type-title">
+						<div class="pinpaizhuanchang-titile-left type-title-left">品牌专场</div>
+						<div class="pinpaizhuanchang-titile-right type-title-right"></div>
+					</div>
+					<div class="pinpaizhuanchang-main type-main"></div>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<ul>
+				<li>
+					<p><i class="iconfont icon-home1"></i></p>
+					<p>首页</p>
+				</li>
+				<li>
+					<p><i class="iconfont icon-fenlei-copy"></i></p>
+					<p>分类</p>
+				</li>
+				<li>
+					<p><i class="iconfont icon-gouwuchetubiao"></i></p>
+					<p>购物车</p>
+				</li>
+				<li>
+					<p><i class="iconfont icon-wo"></i></p>
+					<p>我的秀</p>
+				</li>
+				<li>
+					<p><i class="iconfont icon-gengduo"></i></p>
+					<p>更多</p>
+				</li>
+			</ul>
+		</footer>
+		<script>
+			//var biaoji = false;
+			$(".all").on("click",function() {				
+				$(this).next().toggle();
+				var str = $(".alltype").css("display");
+				if(str == "block"){
+					$(this).find(".all-right").css({
+						"background":"url(../images2/8_07.png) no-repeat center center",
+						 "background-size":"1.25rem 1.0625rem"
+					});
+				}else{
+					$(this).find(".all-right").css({
+						"background":"url(../images2/8_10.png) no-repeat center center",
+						 "background-size":"1.25rem 1.0625rem"
+					});
+				}
+				
+			})
+			$(".type-title").on("click",function() {
+				
+				$(this).next().toggle();
+				
+				var str = $(this).next(".type-main").css("display");
+
+				if(str == "block"){
+					$(this).find(".type-title-right").css({
+						"background":"url(../images2/8_07.png) no-repeat center center",
+						 "background-size":"1.25rem 1.0625rem"
+					});
+				}else{
+					$(this).find(".type-title-right").css({
+						"background":"url(../images2/8_10.png) no-repeat center center",
+						 "background-size":"1.25rem 1.0625rem"
+					});
+				}
+			})
+		</script>
+	</body>
+</html>

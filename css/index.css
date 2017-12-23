@@ -1,49 +1,23 @@
-@charset "UTF-8";
-body {
-  display: flex;
-  flex-direction: column;
-}
-
 header {
-  width: 100%;
-  height: 2.71875rem;
   background: #e4366b url(../images2/7.jpg) no-repeat center center;
   background-size: 7.65625rem 1.65625rem;
-}
-
-.search {
-  height: 2.8125rem;
-  width: 100%;
-  background: #52525a;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.search input {
-  width: 92.6%;
-  height: 1.78125rem;
-  border-radius: 0.9375rem;
-  padding-left: 2.31rem;
-  font-size: 0.8125rem;
-  background: #fff url(../images/7_05.png) no-repeat 4% center;
-  background-size: 7.2%;
-}
-
-.banner {
-  width: 100%;
-  height: 7.8125rem;
-}
-.banner .box {
-  height: 7.8125rem;
-}
-.banner .box img {
-  width: 100%;
-  height: 100%;
 }
 
 .main {
   width: 100%;
   flex: 1;
+  overflow: auto;
+}
+.main .banner {
+  width: 100%;
+  height: 7.8125rem;
+}
+.main .banner .box {
+  height: 7.8125rem;
+}
+.main .banner .box img {
+  width: 100%;
+  height: 100%;
 }
 .main section {
   width: 100%;
@@ -105,46 +79,3 @@ header {
   background: url(../images2/10.jpg) no-repeat center center;
   background-size: 100%;
 }
-
-footer ul {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  height: 3.125rem;
-  width: 100%;
-  background: #484850;
-  color: white;
-}
-footer ul li {
-  height: 3.125rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-}
-footer ul li .iconfont {
-  font-size: 1.34375rem;
-}
-footer ul li p:nth-child(2) {
-  font-size: 0.75rem;
-}
-
-/*iphone 6plus*/
-@media only screen and (min-width: 414px) {
-  html, body {
-    font-size: 21px !important;
-  }
-}
-/*iphone 6*/
-@media only screen and (min-width: 375px) {
-  html, body {
-    font-size: 19px !important;
-  }
-}
-@media only screen and (min-width: 768px) {
-  html, body {
-    font-size: 33px !important;
-  }
-}
-/* ipad */
-/* ipad绔栧睆 */

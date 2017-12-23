@@ -1,0 +1,85 @@
+
+header{
+    background:#e4366b url(../images2/cart.png) no-repeat center center;
+    background-size:4.71875rem 1.90625rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .back{
+        width: 1.96875rem;
+        height: 1.15625rem;
+       // margin-top:0.9375rem;
+        margin-left: 0.46875rem;
+        background: url(../images2/29.jpg) no-repeat center center;
+        background-size: 1.96875rem 1.15625rem;
+    }
+    .go_buy{
+        margin-right: 0.5625rem;
+        text-align: center;
+        width: 3.8125rem;
+        height: 1.75rem;
+        background: url(../images2/30.jpg) no-repeat center center;
+        background-size: 3.8125rem 1.75rem;
+        line-height: 1.75rem;
+        color: white;
+    }
+}
+
+//main
+.main{
+    flex: 1;
+    overflow:auto;
+    #title{
+        width:100%;
+        height: 2.8125rem;
+       // line-height:2.8125rem;
+        background: #333333;
+        color: #f9f9f9;
+        font-size: 1rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .title-left{
+            margin-left: 0.75rem;
+        }
+        .title-right{
+            margin-right: 1rem;
+            #total{
+                color: #e4366b;
+            }
+        }
+    }
+    section{
+        width: 100%;
+        height: 7.15625rem;
+        border-bottom: 0.03125rem solid #ccc;
+        .prod{
+            width: 100%;
+            height: 7.15625rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .prod-left{
+                width: 5.46875rem;
+                height: 5.46875rem;
+                margin-left: 1.0625rem;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .prod-middle{
+                background: red;
+                width: 50.46%;
+                height: 5.46875rem;
+            }
+            .prod-right{
+                width: 1.28125rem;
+                height:5.46875rem;
+                margin-right: 0.5rem;
+                background: pink;
+            }
+        }
+    }
+}
+

@@ -1,0 +1,12 @@
+header {
+  background: #e4366b url(../images2/see.png) no-repeat center center;
+  background-size: 5.59375rem 2.03125rem;
+}
+header .back {
+  width: 1.96875rem;
+  height: 1.15625rem;
+  margin-top: 0.9375rem;
+  margin-left: 0.46875rem;
+  background: url(../images2/29.jpg) no-repeat center center;
+  background-size: 1.96875rem 1.15625rem;
+}

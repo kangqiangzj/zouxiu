@@ -13,3 +13,29 @@ a{text-decoration:none;}
 html,body{height:100%;-webkit-text-size-adjust:100%;-webkit-font-smoothing:antialiased;color: #666666;background-color:#f3f5f7 !important;font-size: 16px !important;}
 a,input,textarea{-webkit-tap-highlight-color:rgba(0,0,0,0);tap-highlight-color:rgba(0,0,0,0);outline:none; -webkit-font-smoothing:antialiased}
 .hidden{ display:none !important;transition: .2s linear;-webkit-transition: .2s linear;}
+
+/*iphone 6plus*/
+@media only screen and (min-width:414px) {
+html,body{font-size: 21px !important;}
+}
+/*iphone 6*/
+@media only screen and (min-width:375px) {
+html,body{font-size: 19px !important;}
+}
+@media only screen and (min-width:768px) {
+html,body{font-size: 33px !important;}
+}
+/* ipad */
+//@media only screen
+//and (min-device-width : 768px)
+//and (max-device-width : 1024px)
+//and (orientation : landscape){
+//html,body{font-size: 22px !important;}
+//}
+
+/* ipad竖屏 */
+//@media (min-device-width: 768px)
+//and (max-device-width: 1024px)
+//and (orientation: portrait) {
+//html,body{font-size: 26px !important;}
+//}
