@@ -10,3 +10,61 @@ header .back {
   background: url(../images2/29.jpg) no-repeat center center;
   background-size: 1.96875rem 1.15625rem;
 }
+
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main .contain {
+  width: 16.34375rem;
+}
+.main .contain .head {
+  width: 100%;
+  padding: 0.875rem 0;
+  height: 2rem;
+}
+.main .contain .head ul {
+  background: url(../images2/bg.png);
+  background-size: 100% 1.9375rem;
+  height: 2.0625rem;
+  border: 0.03125rem solid #ccc;
+  border-right: none;
+  border-radius: 0.3125rem;
+}
+.main .contain .head ul li {
+  text-align: center;
+  height: 2rem;
+  width: 4.0625rem;
+  line-height: 2rem;
+  float: left;
+  border-right: 0.03125rem solid #ccc;
+}
+.main .contain .head ul li:nth-child(1) {
+  color: white;
+  background: #ec4978;
+  border-top-left-radius: 0.3125rem;
+  border-bottom-left-radius: 0.3125rem;
+}
+.main .contain .head ul li:nth-child(4) {
+  border-top-right-radius: 0.3125rem;
+  border-bottom-right-radius: 0.3125rem;
+}
+.main .contain section {
+  width: 16.34375rem;
+  height: 4.59375rem;
+  border: 0.03125rem solid #a1a1a1;
+  border-radius: 0.3125rem;
+  background: white;
+  font-size: 0.6875rem;
+  color: #454545;
+  padding: 0 0.4375rem;
+}
+.main .contain section p {
+  height: 1.125rem;
+  line-height: 1.125rem;
+}
+.main .contain section p span {
+  color: #8a8a8a;
+}

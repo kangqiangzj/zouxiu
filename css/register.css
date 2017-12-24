@@ -25,4 +25,32 @@ header .register {
 
 .main {
   flex: 1;
+  display: flex;
+  justify-content: center;
+}
+.main .formm {
+  width: 17.625rem;
+  height: 18.4375rem;
+}
+.main .formm #username, .main .formm #password, .main .formm #repassword {
+  display: block;
+  padding-left: 0.625rem;
+  border-radius: 0.625rem;
+  margin-top: 1.75rem;
+  height: 2.4375rem;
+  width: 100%;
+}
+.main .formm .register {
+  margin-top: 2.5rem;
+  height: 2.875rem;
+  width: 100%;
+  background: url(../images2/lgbg.png);
+  background-size: 100% 2.875rem;
+  text-align: center;
+  line-height: 2.875rem;
+  color: white;
+  border-radius: 0.3125rem;
+}
+.main .formm .register:hover {
+  cursor: pointer;
 }
