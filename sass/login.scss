@@ -26,4 +26,48 @@ header{
 //main
 .main{
     flex: 1;
+    display: flex;
+    justify-content: center;
+    .formm{
+        width: 17.625rem;
+        height: 15.53125rem;
+        #username,#password{
+            display: block;
+           // border: 0.03125rem solid #ccc;
+           padding-left: 0.625rem;
+            border-radius: 0.625rem;
+            margin-top: 1.75rem;
+            height: 2.4375rem;
+            width: 100%;
+        }
+        p{
+            height: 3.75rem;
+            width: 100%;
+            font-size: 0.8125rem;
+            line-height: 3.75rem;
+            label{
+                padding-right: 0.9375rem;
+                &:hover{
+                    cursor: pointer;
+                }
+            }
+            a{
+                color: #b6b6b6;
+                text-decoration: underline;
+            }
+        }
+        .login{
+            height: 2.875rem;
+            width: 100%;
+            background: url(../images2/lgbg.png);
+            background-size: 100% 2.875rem;
+            text-align: center;
+            line-height: 2.875rem;
+            color: white;
+            border-radius: 0.3125rem;
+            &:hover{
+                cursor: pointer;
+            }
+        }
+    }
 }

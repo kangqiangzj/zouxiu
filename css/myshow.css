@@ -1,12 +1,90 @@
 header {
   background: #e4366b url(../images2/myshow.png) no-repeat center center;
-  background-size: 4.625rem 1.9375rem;
-}
-header .back {
-  width: 1.96875rem;
-  height: 1.15625rem;
-  margin-top: 0.9375rem;
-  margin-left: 0.46875rem;
-  background: url(../images2/29.jpg) no-repeat center center;
-  background-size: 1.96875rem 1.15625rem;
-}
+  background-size: 4.625rem 1.9375rem; }
+  header .back {
+    width: 1.96875rem;
+    height: 1.15625rem;
+    margin-top: 0.9375rem;
+    margin-left: 0.46875rem;
+    background: url(../images2/29.jpg) no-repeat center center;
+    background-size: 1.96875rem 1.15625rem; }
+
+.main {
+  flex: 1;
+  overflow: auto; }
+  .main .self-status {
+    height: 9.6875rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+    .main .self-status .touxiang {
+      width: 5.25rem;
+      height: 5.25rem;
+      margin-left: 1.03125rem; }
+      .main .self-status .touxiang img {
+        width: 100%;
+        height: 100%; }
+    .main .self-status .touxiang-right {
+      margin-right: 1.5rem;
+      height: 5.25rem;
+      width: 11.34375rem; }
+      .main .self-status .touxiang-right h5 {
+        height: 3.125rem;
+        line-height: 3.125rem;
+        font-size: 1.0625rem;
+        font-weight: 500; }
+      .main .self-status .touxiang-right div {
+        width: 8.1875rem;
+        height: 2.1875rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center; }
+        .main .self-status .touxiang-right div span {
+          font-size: 0.75rem;
+          color: white;
+          display: block;
+          width: 3.375rem;
+          height: 1.71875rem;
+          line-height: 1.71875rem;
+          border-radius: 0.3125rem;
+          text-align: center;
+          background: url(../images2/btn.png);
+          background-size: 100% 1.71875rem; }
+  .main .myoperat {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .main .myoperat .contain {
+      background: white;
+      border: 0.03125rem solid #ccc;
+      border-radius: 10px;
+      width: 17.53125rem; }
+      .main .myoperat .contain section {
+        width: 17.53125rem;
+        border-bottom: 0.03125rem solid #CCCCCC; }
+        .main .myoperat .contain section .type {
+          width: 100%;
+          height: 2.75rem;
+          display: flex;
+          justify-content: space-between;
+          align-items: center; }
+          .main .myoperat .contain section .type .type-left {
+            margin-left: 0.9375rem;
+            height: 2.75rem;
+            line-height: 2.75rem; }
+          .main .myoperat .contain section .type .type-right {
+            margin-right: 0.9375rem;
+            width: 1.25rem;
+            height: 1.0625rem;
+            background: url(../images2/8_10.png) no-repeat center center;
+            background-size: 1.25rem 1.0625rem; }
+        .main .myoperat .contain section .type-main {
+          height: 2.75rem;
+          background: red;
+          display: none; }
+      .main .myoperat .contain section:last-child {
+        border: none; }
+
+/*# sourceMappingURL=myshow.css.map */

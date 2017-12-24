@@ -27,6 +27,37 @@ header .go_buy {
   flex: 1;
   overflow: auto;
 }
+.main .empty {
+  width: 100%;
+  height: 18.75rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.main .empty .top {
+  height: 3.75rem;
+}
+.main .empty .top h5 {
+  margin-top: 1.40625rem;
+  height: 2.5rem;
+  font-size: 1.09375rem;
+  line-height: 2.5rem;
+}
+.main .empty .top div {
+  width: 8.25rem;
+  height: 8.25rem;
+}
+.main .empty .top div img {
+  width: 100%;
+  height: 100%;
+}
+.main .empty .bottom {
+  width: 13.21875rem;
+  height: 2.875rem;
+  background: url(../images2/quguang.png) no-repeat center center;
+  background-size: 13.21875rem 2.875rem;
+}
 .main #title {
   width: 100%;
   height: 2.8125rem;
@@ -68,13 +99,75 @@ header .go_buy {
   height: 100%;
 }
 .main section .prod .prod-middle {
-  background: red;
   width: 50.46%;
   height: 5.46875rem;
 }
+.main section .prod .prod-middle .prod-message {
+  font-size: 0.875rem;
+  line-height: 1.1875rem;
+  height: 2.8125rem;
+}
+.main section .prod .prod-middle .prod-price {
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+}
+.main section .prod .prod-middle .prod-price #price {
+  font-size: 0.8125rem;
+  color: #e4366b;
+}
+.main section .prod .prod-middle .prod-amount {
+  width: 100%;
+  height: 1.5625rem;
+  font-size: 0.875rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main section .prod .prod-middle .prod-amount .operat {
+  width: 6.9375rem;
+  height: 1.5625rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main section .prod .prod-middle .prod-amount .operat #minus, .main section .prod .prod-middle .prod-amount .operat #add {
+  color: white;
+  font-weight: bolder;
+  background: #939393;
+  border-radius: 0.3125rem;
+  display: block;
+  width: 1.8125rem;
+  height: 1.34375rem;
+  text-align: center;
+  line-height: 1.34375rem;
+}
+.main section .prod .prod-middle .prod-amount .operat #amount {
+  box-shadow: inset 0 0 0.3125rem #CCC;
+  border-radius: 0.3125rem;
+  width: 2.4375rem;
+  height: 1.40625rem;
+  text-align: center;
+  line-height: 1.40625rem;
+}
 .main section .prod .prod-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   width: 1.28125rem;
   height: 5.46875rem;
   margin-right: 0.5rem;
-  background: pink;
+}
+.main section .prod .prod-right .prod-right-top {
+  width: 1.09375rem;
+  height: 1.09375rem;
+  background: red;
+  background: url(../images2/21.jpg) no-repeat center center;
+  background-size: 0.96875rem 1.09375rem;
+}
+.main section .prod .prod-right .prod-right-bottom {
+  width: 1.09375rem;
+  height: 1.09375rem;
+  text-align: center;
+  line-height: 1.09375rem;
+  margin-bottom: 1.5625rem;
 }

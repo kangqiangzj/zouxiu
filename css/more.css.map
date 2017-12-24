@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,MAAM;EACF,UAAU,EAAC,wDAAuD;EAClE,eAAe,EAAC,oBAAoB;;AACpC,YAAK;EACD,KAAK,EAAE,UAAU;EACjB,MAAM,EAAE,UAAU;EAClB,UAAU,EAAC,SAAS;EACpB,WAAW,EAAE,UAAU;EACvB,UAAU,EAAE,8CAA8C;EAC1D,eAAe,EAAE,qBAAqB",
+"sources": ["../sass/more.scss"],
+"names": [],
+"file": "more.css"
+}
