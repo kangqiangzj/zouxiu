@@ -13,6 +13,7 @@
   	    <link rel="stylesheet" type="text/css" href="../css/base.css"/>
   	    <link rel="stylesheet" type="text/css" href="../css/muban.css"/>
   	    <link rel="stylesheet" type="text/css" href="../css/more.css"/>
+  	    <script src="../jquery/jquery-1.12.4.min.js"></script>
 	</head>
 	<body>
 		<header>
@@ -23,7 +24,62 @@
 		
 		
 		<div class="main">
-			
+			<div class="myoperat">
+				<div class="contain">
+					<section>
+						<div class="mydindan type">
+							<div class="left type-left">常见问题</div>
+							<div class="right type-right"></div>
+						</div>
+						<div class="mydindan-main type-main"></div>
+					</section>
+					
+					<section>
+						<div class="myyouhui type">
+							<div class="left type-left">系统设置</div>
+							<div class="right type-right"></div>
+						</div>
+						<div class="myyouhui-main type-main"></div>
+					</section>
+					
+					<section>
+						<div class="seerecord type">
+							<div class="left type-left">软件更新</div>
+							<div class="right type-right"></div>
+						</div>
+						<div class="seerecord-main type-main"></div>
+					</section>
+					
+					<section>
+						<div class="mysave type">
+							<div class="left type-left">扫描二维码</div>
+							<div class="right type-right"></div>
+						</div>
+						<div class="mysave-main type-main"></div>
+					</section>
+				</div>
+				
+			</div>
+			<div class="myoperat">
+				<div class="contain">
+					<section>
+						<div class="mydindan type">
+							<div class="left type-left">我要提意见</div>
+							<div class="right type-right"></div>
+						</div>
+						<div class="mydindan-main type-main"></div>
+					</section>
+					
+					<section>
+						<div class="myyouhui type">
+							<div class="left type-left">关于</div>
+							<div class="right type-right"></div>
+						</div>
+						<div class="myyouhui-main type-main"></div>
+					</section>					
+				</div>				
+			</div>
+			<div class="loginout">退出登录</div>
 		</div>
 		<footer>
 			<ul>
@@ -49,5 +105,25 @@
 				</li>
 			</ul>
 		</footer>
+		<script>
+			$(".type").on("click",function() {
+				
+				$(this).next().toggle();
+				
+				var str = $(this).next(".type-main").css("display");
+
+				if(str == "block"){
+					$(this).find(".type-right").css({
+						"background":"url(../images2/8_07.png) no-repeat center center",
+						 "background-size":"1.25rem 1.0625rem"
+					});
+				}else{
+					$(this).find(".type-right").css({
+						"background":"url(../images2/8_10.png) no-repeat center center",
+						 "background-size":"1.25rem 1.0625rem"
+					});
+				}
+			})
+		</script>
 	</body>
 </html>

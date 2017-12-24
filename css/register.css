@@ -3,54 +3,48 @@ header {
   background-size: 3.5rem 2.125rem;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-}
-header .back {
-  width: 1.96875rem;
-  height: 1.15625rem;
-  margin-left: 0.46875rem;
-  background: url(../images2/29.jpg) no-repeat center center;
-  background-size: 1.96875rem 1.15625rem;
-}
-header .register {
-  margin-right: 0.5625rem;
-  text-align: center;
-  width: 3.8125rem;
-  height: 1.75rem;
-  background: url(../images2/30.jpg) no-repeat center center;
-  background-size: 3.8125rem 1.75rem;
-  line-height: 1.75rem;
-  color: white;
-}
+  align-items: center; }
+  header .back {
+    width: 1.96875rem;
+    height: 1.15625rem;
+    margin-left: 0.46875rem;
+    background: url(../images2/29.jpg) no-repeat center center;
+    background-size: 1.96875rem 1.15625rem; }
+  header .register {
+    margin-right: 0.5625rem;
+    text-align: center;
+    width: 3.8125rem;
+    height: 1.75rem;
+    background: url(../images2/30.jpg) no-repeat center center;
+    background-size: 3.8125rem 1.75rem;
+    line-height: 1.75rem;
+    color: white; }
 
 .main {
   flex: 1;
   display: flex;
-  justify-content: center;
-}
-.main .formm {
-  width: 17.625rem;
-  height: 18.4375rem;
-}
-.main .formm #username, .main .formm #password, .main .formm #repassword {
-  display: block;
-  padding-left: 0.625rem;
-  border-radius: 0.625rem;
-  margin-top: 1.75rem;
-  height: 2.4375rem;
-  width: 100%;
-}
-.main .formm .register {
-  margin-top: 2.5rem;
-  height: 2.875rem;
-  width: 100%;
-  background: url(../images2/lgbg.png);
-  background-size: 100% 2.875rem;
-  text-align: center;
-  line-height: 2.875rem;
-  color: white;
-  border-radius: 0.3125rem;
-}
-.main .formm .register:hover {
-  cursor: pointer;
-}
+  justify-content: center; }
+  .main .formm {
+    width: 88.125%;
+    height: 18.4375rem; }
+    .main .formm #username, .main .formm #password, .main .formm #repassword {
+      display: block;
+      padding-left: 0.625rem;
+      border-radius: 0.625rem;
+      margin-top: 1.75rem;
+      height: 2.4375rem;
+      width: 100%; }
+    .main .formm .register {
+      margin-top: 2.5rem;
+      height: 2.875rem;
+      width: 100%;
+      background: url(../images2/lgbg.png);
+      background-size: 100% 2.875rem;
+      text-align: center;
+      line-height: 2.875rem;
+      color: white;
+      border-radius: 0.3125rem; }
+      .main .formm .register:hover {
+        cursor: pointer; }
+
+/*# sourceMappingURL=register.css.map */

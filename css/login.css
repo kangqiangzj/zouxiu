@@ -29,7 +29,7 @@ header .register {
   justify-content: center;
 }
 .main .formm {
-  width: 17.625rem;
+  width: 87.5%;
   height: 15.53125rem;
 }
 .main .formm #username, .main .formm #password {
@@ -69,3 +69,5 @@ header .register {
 .main .formm .login:hover {
   cursor: pointer;
 }
+
+/*# sourceMappingURL=login.css.map */
