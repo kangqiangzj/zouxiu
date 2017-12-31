@@ -1,0 +1,54 @@
+body { display: flex; flex-direction: column; }
+
+header { width: 100%; height: 2.71875rem; }
+
+.search { height: 2.8125rem; width: 100%; background: #52525a; display: flex; justify-content: center; align-items: center; }
+.search input { width: 92.6%; height: 1.78125rem; border-radius: 0.9375rem; padding-left: 2.61rem; font-size: 0.8125rem; background: #fff url(../images2/7_05.png) no-repeat 3% center; background-size: 1.4375rem 1.28125rem; }
+
+footer ul { display: flex; justify-content: space-around; align-items: center; height: 3.125rem; width: 100%; background: #484850; color: white; }
+footer ul li { margin-top: 0.5rem; height: 2.625rem; display: flex; flex-direction: column; align-items: center; justify-content: space-around; }
+footer ul li .iconfont { font-size: 1.34375rem; }
+footer ul li p:nth-child(2) { font-size: 0.75rem; }
+
+.Z_index { height: 100%; display: flex; flex-direction: column; }
+.Z_index header { background: #e4366b url(../images2/7.jpg) no-repeat center center; background-size: 7.65625rem 1.65625rem; }
+.Z_index .content { position: relative; width: 100%; flex: 1; overflow: hidden; }
+.Z_index .content .banner { width: 100%; height: 7.8125rem; }
+.Z_index .content .banner .box { height: 7.8125rem; }
+.Z_index .content .banner .box img { width: 100%; height: 100%; }
+.Z_index .content #jiazai { position: absolute; top: -3.125rem; left: 45%; width: 2.5rem; height: 2.5rem; background: url(../images2/5-121204193R0-50.gif) no-repeat center center; background-size: 100%; }
+.Z_index .content section { width: 100%; height: 6.875rem; border-bottom: 0.03125rem solid #ccc; display: flex; justify-content: center; align-items: center; }
+.Z_index .content section .sec { width: 95.4%; height: 5.4375rem; display: flex; justify-content: space-between; }
+.Z_index .content section .sec .left { width: 5.46875rem; height: 5.46875rem; }
+.Z_index .content section .sec .left img { width: auto; height: 100%; }
+.Z_index .content section .sec .right { width: 65.6%; height: 5.46875rem; display: flex; flex-direction: column; justify-content: space-between; }
+.Z_index .content section .sec .right .top { font-size: 0.875rem; line-height: 1.3125rem; }
+.Z_index .content section .sec .right .bottom { display: flex; justify-content: space-between; }
+.Z_index .content section .sec .right .bottom .bottom-left .current { font-size: 0.9375rem; color: #f32975; }
+.Z_index .content section .sec .right .bottom .bottom-left .before { font-size: 0.625rem; color: #bcbabb; margin-left: 0.15625rem; text-decoration: line-through; }
+.Z_index .content section .sec .right .bottom .bottom-left .zhekou { font-size: 0.625rem; color: black; line-height: 0.875rem; padding-left: 0.1875rem; }
+.Z_index .content section .sec .right .bottom .bottom-right span { display: block; width: 3.65625rem; height: 1.59375rem; background: url(../images2/10.jpg) no-repeat center center; background-size: 100%; }
+
+.Z_login { height: 100%; display: flex; flex-direction: column; }
+.Z_login header { background: #e4366b url(../images2/login.png) no-repeat center center; background-size: 3.5rem 2.125rem; display: flex; justify-content: space-between; align-items: center; }
+.Z_login header .back { width: 1.96875rem; height: 1.15625rem; margin-left: 0.46875rem; background: url(../images2/29.jpg) no-repeat center center; background-size: 1.96875rem 1.15625rem; }
+.Z_login header .register { margin-right: 0.5625rem; text-align: center; width: 3.8125rem; height: 1.75rem; background: url(../images2/30.jpg) no-repeat center center; background-size: 3.8125rem 1.75rem; line-height: 1.75rem; color: white; }
+.Z_login .main { flex: 1; display: flex; justify-content: center; }
+.Z_login .main .formm { width: 87.5%; height: 15.53125rem; }
+.Z_login .main .formm #username, .Z_login .main .formm #password { display: block; padding-left: 0.625rem; border-radius: 0.625rem; margin-top: 1.75rem; height: 2.4375rem; width: 100%; }
+.Z_login .main .formm p { height: 3.75rem; width: 100%; font-size: 0.8125rem; line-height: 3.75rem; }
+.Z_login .main .formm p label { padding-right: 0.9375rem; }
+.Z_login .main .formm p label:hover { cursor: pointer; }
+.Z_login .main .formm p a { color: #b6b6b6; text-decoration: underline; }
+.Z_login .main .formm .login { height: 2.875rem; width: 100%; background: url(../images2/lgbg.png); background-size: 100% 2.875rem; text-align: center; line-height: 2.875rem; color: white; border-radius: 0.3125rem; }
+.Z_login .main .formm .login:hover { cursor: pointer; }
+
+.Z_register { height: 100%; display: flex; flex-direction: column; }
+.Z_register header { background: #e4366b url(../images2/register.png) no-repeat center center; background-size: 3.5rem 2.125rem; display: flex; justify-content: space-between; align-items: center; }
+.Z_register header .back { width: 1.96875rem; height: 1.15625rem; margin-left: 0.46875rem; background: url(../images2/29.jpg) no-repeat center center; background-size: 1.96875rem 1.15625rem; }
+.Z_register header .register { margin-right: 0.5625rem; text-align: center; width: 3.8125rem; height: 1.75rem; background: url(../images2/30.jpg) no-repeat center center; background-size: 3.8125rem 1.75rem; line-height: 1.75rem; color: white; }
+.Z_register .main { flex: 1; display: flex; justify-content: center; }
+.Z_register .main .formm { width: 88.125%; height: 18.4375rem; }
+.Z_register .main .formm #username, .Z_register .main .formm #password, .Z_register .main .formm #repassword { display: block; padding-left: 0.625rem; border-radius: 0.625rem; margin-top: 1.75rem; height: 2.4375rem; width: 100%; }
+.Z_register .main .formm .register { margin-top: 2.5rem; height: 2.875rem; width: 100%; background: url(../images2/lgbg.png); background-size: 100% 2.875rem; text-align: center; line-height: 2.875rem; color: white; border-radius: 0.3125rem; }
+.Z_register .main .formm .register:hover { cursor: pointer; }
