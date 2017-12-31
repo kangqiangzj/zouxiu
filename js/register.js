@@ -18,7 +18,7 @@ function _register(){
 	}
 }
 function _login(){
-	location.href = "/zouxiu/html/login.html"
+	location.href = "login.html"
 }
 function getUser(name,psw){
 	var user = {

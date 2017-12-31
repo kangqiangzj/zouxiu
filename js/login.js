@@ -58,6 +58,6 @@ function loginUser(user){
 }
 //去注册
 function _register(){
-	location.href = "/zouxiu/html/register.html"
+	location.href = "register.html"
 }
 
