@@ -3,7 +3,8 @@
 		"refer": [
 			"html/type.html",
 			"html/myshow.html",
-			"html/cart.html"
+			"html/cart.html",
+			"html/more.html"
 		],
 		"resources": [
 			"js/lib/template.js",
@@ -31,7 +32,9 @@
 			"html/cart.html",
 			"html/more.html",
 			"html/type.html",
-			"html/index.html"
+			"html/index.html",
+			"html/login.html",
+			"html/register.html"
 		],
 		"resources": [
 			"images2/btn.png",
@@ -85,7 +88,8 @@
 		"refer": [
 			"html/index.html",
 			"html/type.html",
-			"html/myshow.html"
+			"html/myshow.html",
+			"html/cart.html"
 		],
 		"resources": [
 			"jquery/jquery-1.12.4.min.js",
@@ -95,6 +99,17 @@
 			"css/base.css",
 			"html/type.html",
 			"html/index.html",
+			"html/myshow.html"
+		]
+	},
+	"html/login.html": {
+		"refer": [
+			"html/myshow.html",
+			"html/cart.html"
+		]
+	},
+	"html/register.html": {
+		"refer": [
 			"html/myshow.html"
 		]
 	}

@@ -221,7 +221,9 @@
 					"html/myshow.html",
 					"images2/bg3.png"
 				],
-				"refer": [],
+				"refer": [
+					"html/more.html"
+				],
 				"priority": 0
 			},
 			"html/myshow.html": {
@@ -236,7 +238,10 @@
 					"html/type.html",
 					"html/index.html"
 				],
-				"refer": [],
+				"refer": [
+					"html/login.html",
+					"html/register.html"
+				],
 				"priority": 0
 			},
 			"html/type.html": {
@@ -281,7 +286,24 @@
 					"html/index.html",
 					"html/myshow.html"
 				],
-				"refer": [],
+				"refer": [
+					"html/cart.html"
+				],
+				"priority": 0
+			},
+			"html/login.html": {
+				"resources": [],
+				"refer": [
+					"html/myshow.html",
+					"html/cart.html"
+				],
+				"priority": 0
+			},
+			"html/register.html": {
+				"resources": [],
+				"refer": [
+					"html/myshow.html"
+				],
 				"priority": 0
 			}
 		},
@@ -384,7 +406,6 @@
 				"html/proddetail.html",
 				"css/myyouhui.css.map",
 				"4.jpg",
-				"html/register.html",
 				"images2/24.jpg",
 				"js/detail_shipai.js",
 				"css/detail_shipai.css",
@@ -404,7 +425,6 @@
 				"9.jpg",
 				"6.jpg",
 				"sass/detail_shipai.scss",
-				"html/login.html",
 				"images2/see.png",
 				"html/prodintroduce.html",
 				"images2/9.jpg",
