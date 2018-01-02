@@ -89,7 +89,7 @@ footer ul li p:nth-child(2) { font-size: 0.75rem; }
 
 .Z_type { height: 100%; display: flex; flex-direction: column; }
 .Z_type header { background: #e4366b url(../images2/7.jpg) no-repeat center center; background-size: 7.65625rem 1.65625rem; }
-.Z_type header .back { width: 1.96875rem; height: 1.15625rem; margin-top: 0.9375rem; margin-left: 0.46875rem; background: url(../images2/29.jpg) no-repeat center center; background-size: 1.96875rem 1.15625rem; }
+.Z_type header .back { width: 1.96875rem; height: 1.15625rem; margin-top: 0.8375rem; margin-left: 0.46875rem; background: url(../images2/29.jpg) no-repeat center center; background-size: 1.96875rem 1.15625rem; }
 .Z_type .main { flex: 1; overflow: auto; background: #fefcfd; }
 .Z_type .main .all { width: 100%; height: 2.75rem; display: flex; justify-content: space-between; align-items: center; border-bottom: 0.03125rem solid #ccc; }
 .Z_type .main .all .all-left { font-size: 1.1875rem; font-weight: 500; color: black; margin-left: 0.625rem; }
@@ -101,7 +101,7 @@ footer ul li p:nth-child(2) { font-size: 0.75rem; }
 .Z_type .main .alltype .type .type-main { width: 100%; height: 3.125rem; background: red; display: none; }
 
 .Z_myshow header { background: #e4366b url(../images2/myshow.png) no-repeat center center; background-size: 4.625rem 1.9375rem; }
-.Z_myshow header .back { width: 1.96875rem; height: 1.15625rem; margin-top: 0.9375rem; margin-left: 0.46875rem; background: url(../images2/29.jpg) no-repeat center center; background-size: 1.96875rem 1.15625rem; }
+.Z_myshow header .back { width: 1.96875rem; height: 1.15625rem; margin-top: 0.8375rem; margin-left: 0.46875rem; background: url(../images2/29.jpg) no-repeat center center; background-size: 1.96875rem 1.15625rem; }
 .Z_myshow .main { flex: 1; height: 100%; display: flex; flex-direction: column; }
 .Z_myshow .main .self-status { height: 9.6875rem; width: 100%; display: flex; align-items: center; justify-content: space-between; }
 .Z_myshow .main .self-status .touxiang { width: 5.25rem; height: 5.25rem; margin-left: 1.03125rem; }
@@ -121,7 +121,7 @@ footer ul li p:nth-child(2) { font-size: 0.75rem; }
 
 .Z_more { flex: 1; height: 100%; display: flex; flex-direction: column; }
 .Z_more header { background: #e4366b url(../images2/more.png) no-repeat center center; background-size: 3.3125rem 1.90625rem; }
-.Z_more header .back { width: 1.96875rem; height: 1.15625rem; margin-top: 0.9375rem; margin-left: 0.46875rem; background: url(../images2/29.jpg) no-repeat center center; background-size: 1.96875rem 1.15625rem; }
+.Z_more header .back { width: 1.96875rem; height: 1.15625rem; margin-top: 0.8375rem; margin-left: 0.46875rem; background: url(../images2/29.jpg) no-repeat center center; background-size: 1.96875rem 1.15625rem; }
 .Z_more .main { flex: 1; overflow: auto; display: flex; flex-direction: column; align-items: center; }
 .Z_more .main .myoperat { margin-top: 1.25rem; width: 100%; display: flex; flex-direction: column; align-items: center; }
 .Z_more .main .myoperat .contain { background: white; border: 0.03125rem solid #ccc; border-radius: 10px; width: 87.5%; }

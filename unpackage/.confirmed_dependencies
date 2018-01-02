@@ -70,7 +70,8 @@
 		"refer": [
 			"html/myshow.html",
 			"html/type.html",
-			"html/index.html"
+			"html/index.html",
+			"html/more.html"
 		],
 		"resources": [
 			"images2/cart.png",
@@ -105,12 +106,14 @@
 	"html/login.html": {
 		"refer": [
 			"html/myshow.html",
-			"html/cart.html"
+			"html/cart.html",
+			"html/register.html"
 		]
 	},
 	"html/register.html": {
 		"refer": [
-			"html/myshow.html"
+			"html/myshow.html",
+			"html/login.html"
 		]
 	}
 }

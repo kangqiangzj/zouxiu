@@ -272,7 +272,9 @@
 					"html/index.html",
 					"html/type.html"
 				],
-				"refer": [],
+				"refer": [
+					"html/more.html"
+				],
 				"priority": 0
 			},
 			"html/more.html": {
@@ -295,14 +297,16 @@
 				"resources": [],
 				"refer": [
 					"html/myshow.html",
-					"html/cart.html"
+					"html/cart.html",
+					"html/register.html"
 				],
 				"priority": 0
 			},
 			"html/register.html": {
 				"resources": [],
 				"refer": [
-					"html/myshow.html"
+					"html/myshow.html",
+					"html/login.html"
 				],
 				"priority": 0
 			}
