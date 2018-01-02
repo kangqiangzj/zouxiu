@@ -17,6 +17,10 @@ $(function(){
     	}
     	
     })
+	$(".products").on("touchstart",".left",function(){	
+		var goodsID = $(this).find("#goodsID").val()
+		window.location.href = "detail_shipai.html?goodsID="+goodsID
+	});
 });
 
 function loadScroll(){
@@ -35,12 +39,20 @@ function getData(classID){
 		data:{classID:classID},
 		success:function(data){
 			$("#page").val(classID);
-			console.log(data)
-			console.log(classID)
+//			console.log(data)
+//			console.log(classID)
 			var prods = template("prods",{prods:data});
 			var $products = $("#scrollbar .products");
 			$products.append(prods);
-			myIscroll.refresh();//难受啊
+			myIscroll.refresh();//
+//			$.each(data,function(index){
+//				$(".products").on("touchstart",".left",function(index){
+////				$(".left").on("touchstart",function(){
+//					return function(){
+//						window.location.href = "detail.html?goodsID="+data[index].goodsID
+//					}					
+//				})
+//			})	
 		}
 	});
 }

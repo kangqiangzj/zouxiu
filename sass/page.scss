@@ -76,6 +76,10 @@ footer{
             }
         }      
     }
+    .swiper-pagination{
+        top:6.875rem;
+        left: 50%;
+    }
     #jiazai{
         position: absolute;
         top: -3.125rem;
@@ -102,7 +106,7 @@ footer{
                 width: 5.46875rem;
                 height: 5.46875rem;
                 img{
-                    width: auto;
+                    width: 100%;
                     height: 100%;
                 }
             }

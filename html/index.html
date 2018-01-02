@@ -10,6 +10,7 @@
   	    <meta name="description" content="">
   	    <link rel="stylesheet" type="text/css" href="../iconfont/iconfont.css">
   	    <link rel="stylesheet" type="text/css" href="../css/base.css"/>
+  	    <link rel="stylesheet" type="text/css" href="../css/lib/swiper.min.css"/>
   	    <!--<link rel="stylesheet" type="text/css" href="../css/muban.css"/>
   	    <link rel="stylesheet" type="text/css" href="../css/index.css"/>-->
   	    <link rel="stylesheet" type="text/css" href="../css/page.css"/>
@@ -29,11 +30,16 @@
 					<div id="jiazai">
 						
 					</div>
-					<div class="banner">
-						<div class="box">
-							<img src="../images2/8.jpg" alt="" title="picture"/>
+					<div class="banner swiper-container" >
+						<div class="box swiper-wrapper">
+							<!--<img src="../images2/8.jpg" alt="" title="picture"/>-->
+							<div class="swiper-slide a"><img src="../images2/8.png" alt="" title="picture"/></div>
+							<div class="swiper-slide b"><img src="../images2/8.png" alt="" title="picture"/></div>
+							<div class="swiper-slide c"><img src="../images2/8.png" alt="" title="picture"/></div>
+							<div class="swiper-slide d"><img src="../images2/8.png" alt="" title="picture"/></div>
 						</div>
 					</div>
+					<div class="swiper-pagination"></div>
 					<div class="products">
 						
 					</div>
@@ -68,13 +74,23 @@
 		<script src="../js/lib/zepto_1.1.3.js"></script>
 		<script src="../js/lib/iscroll-min.js"></script>
 		<script src="../js/lib/template.js"></script>
+		<script src="../js/lib/swiper.min.js"></script>
 		<script src="../js/index.js"></script>
+		<script type="text/javascript">
+			var swiper = new Swiper(".swiper-container",{
+				autoplay:1000,
+				loop:true,
+				pagination:".swiper-pagination"
+			})
+		</script>
+		
 		<script type="text/html" id="prods">
 			{{each prods as prod}}
 			<section>
 				<div class="sec">
 					<div class="left">
 						<img src="{{prod.goodsListImg}}"/>
+						<input type="hidden" id="goodsID" value="{{prod.goodsID}}"/>
 					</div>
 					<div class="right">
 						<div class="top">
