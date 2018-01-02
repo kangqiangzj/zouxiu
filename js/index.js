@@ -1,8 +1,8 @@
-
 var myIscroll;
 $(function(){
 	loadScroll();
 	getData(1);
+	loadSwiper()
 	document.addEventListener("touchend",function(){
     	//下拉刷新
     	if(myIscroll.y>0){
@@ -22,14 +22,31 @@ $(function(){
 		window.location.href = "detail_shipai.html?goodsID="+goodsID
 	});
 });
-
+//function _fenlei(){
+//	window.location.href = "type.html";
+//}
+//function _cart(){
+//	window.location.href = "cart.html";
+//}
+//function _myshow(){
+//	window.location.href = "myshow.html";
+//}
+//function _more(){
+//	window.location.href = "more.html";
+//}
 function loadScroll(){
 	myIscroll = new IScroll("#wrapper",{
 		mouseWheel:true,
 		scrollbars:true
 	})
 }
-
+function loadSwiper(){
+	var swiper = new Swiper(".swiper-container",{
+		autoplay:1000,
+		loop:true,
+		pagination:".swiper-pagination"
+	})
+}
 function getData(classID){
 	$.ajax({
 		type:"get",
@@ -39,20 +56,10 @@ function getData(classID){
 		data:{classID:classID},
 		success:function(data){
 			$("#page").val(classID);
-//			console.log(data)
-//			console.log(classID)
 			var prods = template("prods",{prods:data});
 			var $products = $("#scrollbar .products");
 			$products.append(prods);
-			myIscroll.refresh();//
-//			$.each(data,function(index){
-//				$(".products").on("touchstart",".left",function(index){
-////				$(".left").on("touchstart",function(){
-//					return function(){
-//						window.location.href = "detail.html?goodsID="+data[index].goodsID
-//					}					
-//				})
-//			})	
+			myIscroll.refresh();
 		}
 	});
 }

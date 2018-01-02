@@ -48,7 +48,8 @@
 			<input type="hidden" id="page" value="1"/>
 			<footer>
 				<ul>
-					<li>
+					<!--style="background: url(../images2/bg3.png) no-repeat top center; background-size:100% 0.15625rem;"-->
+					<li style="background: url(../images2/bg3.png) no-repeat top center;background-size: 100% 0.15625rem;">						
 						<p><i class="iconfont icon-home1"></i></p>
 						<p>首页</p>
 					</li>
@@ -75,15 +76,8 @@
 		<script src="../js/lib/iscroll-min.js"></script>
 		<script src="../js/lib/template.js"></script>
 		<script src="../js/lib/swiper.min.js"></script>
+		<script src="../js/public.js"></script>
 		<script src="../js/index.js"></script>
-		<script type="text/javascript">
-			var swiper = new Swiper(".swiper-container",{
-				autoplay:1000,
-				loop:true,
-				pagination:".swiper-pagination"
-			})
-		</script>
-		
 		<script type="text/html" id="prods">
 			{{each prods as prod}}
 			<section>
