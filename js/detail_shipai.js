@@ -32,8 +32,9 @@ function getDetailData(goodsID){
 	$.ajax({
 		type:"get",
 //		dataType:"jsonp",
+		dataType:"json",
 //		url:"http://datainfo.duapp.com/shopdata/getGoods.php",
-		url:"/zouxiu/mock/prods.json",
+		url:"../mock/prods.json",
 //		data:{goodsID:goodsID},
 		async:true,
 		success:function(data){
@@ -41,7 +42,7 @@ function getDetailData(goodsID){
 			
 			var $wrapper = $("#wrapper")
 			$.each(data, function() {
-//				console.log(this.goodsID);
+//				console.log(this.goodsListImg);
 				if(this.goodsID == goodsID){
 					var $slide = $("<div class='swiper-slide'></div>");
 					var imgbox = $("<img src='"+this.goodsListImg+"' width='100%' />")

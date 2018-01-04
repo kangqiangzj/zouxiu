@@ -7,7 +7,8 @@ $(function(){
     	//下拉刷新
     	if(myIscroll.y>0){
     		$(".products").empty()
-    		getData(1)
+//  		getData(1)
+    		getData()
     	}
     	//上拉加载
     	if(myIscroll.y<myIscroll.maxScrollY-50){
@@ -36,16 +37,17 @@ function loadSwiper(){
 		pagination:".swiper-pagination"
 	})
 }
-function getData(classID){
+function getData(){
 	$.ajax({
 		type:"get",
 //		dataType:"jsonp",
+		dataType:"json",
 //		url:"http://datainfo.duapp.com/shopdata/getGoods.php",	
 		url:"../mock/prods.json",
 		async:true,
 //		data:{classID:classID},
 		success:function(data){
-			console.log(data)
+			console.log(typeof data)
 //			$("#page").val(classID);
 			var prods = template("prods",{prods:data});
 			var $products = $("#scrollbar .products");
