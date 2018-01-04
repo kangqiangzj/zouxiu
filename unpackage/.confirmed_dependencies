@@ -4,7 +4,8 @@
 			"html/type.html",
 			"html/myshow.html",
 			"html/cart.html",
-			"html/more.html"
+			"html/more.html",
+			"html/detail_shipai.html"
 		],
 		"resources": [
 			"js/lib/template.js",
@@ -53,7 +54,8 @@
 			"html/cart.html",
 			"html/index.html",
 			"html/more.html",
-			"html/myshow.html"
+			"html/myshow.html",
+			"html/detail_shipai.html"
 		],
 		"resources": [
 			"images2/8_10.png",
@@ -63,7 +65,8 @@
 			"css/page.css",
 			"html/more.html",
 			"iconfont/iconfont.css",
-			"html/myshow.html"
+			"html/myshow.html",
+			"html/index.html"
 		]
 	},
 	"html/cart.html": {
@@ -114,6 +117,30 @@
 		"refer": [
 			"html/myshow.html",
 			"html/login.html"
+		]
+	},
+	"html/detail_jieshao.html": {
+		"refer": [
+			"html/detail_shipai.html",
+			"html/type.html",
+			"html/detail_xiangqing.html",
+			"html/cart.html"
+		]
+	},
+	"html/detail_shipai.html": {
+		"refer": [
+			"html/detail_jieshao.html",
+			"html/detail_xiangqing.html",
+			"html/type.html",
+			"html/index.html"
+		]
+	},
+	"html/detail_xiangqing.html": {
+		"refer": [
+			"html/detail_jieshao.html",
+			"html/detail_shipai.html",
+			"html/index.html",
+			"html/cart.html"
 		]
 	}
 }

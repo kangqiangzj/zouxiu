@@ -134,9 +134,9 @@
 		<script src="../js/public.js"></script>
 		<script>
 			//var biaoji = false;
-			$(".all").on("click",function() {				
+			$(".all").on("touchstart",function() {				
 				$(this).next().toggle();
-				var str = $(".alltype").css("display");
+			var str = $(".alltype").css("display");
 				if(str == "block"){
 					$(this).find(".all-right").css({
 						"background":"url(../images2/8_07.png) no-repeat center center",
@@ -150,7 +150,7 @@
 				}
 				
 			})
-			$(".type-title").on("click",function() {
+			$(".type-title").on("touchstart",function() {
 				
 				$(this).next().toggle();
 				

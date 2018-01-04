@@ -222,7 +222,8 @@
 					"images2/bg3.png"
 				],
 				"refer": [
-					"html/more.html"
+					"html/more.html",
+					"html/detail_shipai.html"
 				],
 				"priority": 0
 			},
@@ -253,10 +254,11 @@
 					"css/page.css",
 					"html/more.html",
 					"iconfont/iconfont.css",
-					"html/myshow.html"
+					"html/myshow.html",
+					"html/index.html"
 				],
 				"refer": [
-					"html/index.html"
+					"html/detail_shipai.html"
 				],
 				"priority": 0
 			},
@@ -309,6 +311,36 @@
 					"html/login.html"
 				],
 				"priority": 0
+			},
+			"html/detail_jieshao.html": {
+				"resources": [],
+				"refer": [
+					"html/detail_shipai.html",
+					"html/type.html",
+					"html/detail_xiangqing.html",
+					"html/cart.html"
+				],
+				"priority": 0
+			},
+			"html/detail_shipai.html": {
+				"resources": [],
+				"refer": [
+					"html/detail_jieshao.html",
+					"html/detail_xiangqing.html",
+					"html/type.html",
+					"html/index.html"
+				],
+				"priority": 0
+			},
+			"html/detail_xiangqing.html": {
+				"resources": [],
+				"refer": [
+					"html/detail_jieshao.html",
+					"html/detail_shipai.html",
+					"html/index.html",
+					"html/cart.html"
+				],
+				"priority": 0
 			}
 		},
 		"idle": {
@@ -338,7 +370,6 @@
 				"sass/detail_jieshao.scss",
 				"iconfont/iconfont.eot",
 				"images2/26.jpg",
-				"html/detail_jieshao.html",
 				"css/muban2.css",
 				"3.jpg",
 				"22.jpg",
@@ -369,7 +400,6 @@
 				"css/more.css.map",
 				"sass/see.scss",
 				"sass/register.scss",
-				"html/detail_xiangqing.html",
 				"images2/quxiao.png",
 				"css/login.css.map",
 				"iconfont/iconfont.ttf",
@@ -420,7 +450,6 @@
 				"html/muban.html",
 				"1.jpg",
 				"css/cart.css",
-				"html/detail_shipai.html",
 				"html/muban2.html",
 				"css/index.css",
 				"sass/detail_xiangqing.scss",

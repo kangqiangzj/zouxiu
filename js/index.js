@@ -22,18 +22,7 @@ $(function(){
 		window.location.href = "detail_shipai.html?goodsID="+goodsID
 	});
 });
-//function _fenlei(){
-//	window.location.href = "type.html";
-//}
-//function _cart(){
-//	window.location.href = "cart.html";
-//}
-//function _myshow(){
-//	window.location.href = "myshow.html";
-//}
-//function _more(){
-//	window.location.href = "more.html";
-//}
+
 function loadScroll(){
 	myIscroll = new IScroll("#wrapper",{
 		mouseWheel:true,
@@ -50,12 +39,14 @@ function loadSwiper(){
 function getData(classID){
 	$.ajax({
 		type:"get",
-		dataType:"jsonp",
-		url:"http://datainfo.duapp.com/shopdata/getGoods.php",	
+//		dataType:"jsonp",
+//		url:"http://datainfo.duapp.com/shopdata/getGoods.php",	
+		url:"../mock/prods.json",
 		async:true,
-		data:{classID:classID},
+//		data:{classID:classID},
 		success:function(data){
-			$("#page").val(classID);
+			console.log(data)
+//			$("#page").val(classID);
 			var prods = template("prods",{prods:data});
 			var $products = $("#scrollbar .products");
 			$products.append(prods);
